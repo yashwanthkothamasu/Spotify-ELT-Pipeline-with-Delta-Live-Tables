@@ -1,4 +1,10 @@
 # Spotify-ELT-Pipeline-with-Delta-Live-Tables
+**Overview**
+
+End-to-end ELT pipeline built on Azure Databricks and Azure Data Factory, ingesting Spotify relational data through a Medallion Architecture (Bronze, Silver, Gold) with Delta Live Tables (DLT) for CDC and SCD Type 2 handling, Unity Catalog for governance, and Databricks Asset Bundles for deployment.
+
+**Architecture**
+![Architecture](spotify_elt_pipeline_architecture.png)
 **Data Source**
 
 Spotify relational dataset with the following tables:
